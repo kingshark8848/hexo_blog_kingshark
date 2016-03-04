@@ -31,6 +31,14 @@ links:
     url: https://plus.google.com/u/0/107138585012205980028
     intro: "My Google+"
     icon: "fa fa-google-plus"
+  - title: Hexo
+    url: https://hexo.io/
+    intro: "Hexo"
+    icon: "fa fa-link"
+  - title: fortawesome
+    url: https://fortawesome.github.io/Font-Awesome/
+    intro: "fortawesome"
+    icon: "fa fa-link"
   # - title: "My LinkedIn"
   #   url: http://www.linkedin.com/in/xxx
   #   intro: "My Linkin account."
