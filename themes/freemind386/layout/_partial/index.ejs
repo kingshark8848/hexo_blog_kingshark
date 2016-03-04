@@ -2,35 +2,34 @@
 
 	<% if (theme.widgets.length) { %>
 	<div class="col-md-9">
-	<% } else { %>
-	<div class="col-md-12">
-	<% } %>
+		<% } else { %>
+		<div class="col-md-12">
+			<% } %>
 
-		<%- partial('post/slogan') %>
-		<div id="top_search"></div>
-		<div class="mypage">
-		
-		<!-- title and entry -->
-		<% page.posts.each(function(item){ %>
-			<%- partial('post/title', {item: item, index: index}) %>
-			<%- partial('post/entry', {item: item, index: index}) %>
-		<% }); %>
+			<%- partial('post/slogan') %>
+			<div id="top_search"></div>
+			<div class="mypage">
 
-		</div>
+				<!-- title and entry -->
+				<% page.posts.each(function(item){ %>
+				<%- partial('post/title', {item: item, index: index}) %>
+				<%- partial('post/entry', {item: item, index: index}) %>
+				<% }); %>
 
-		<!-- pagination -->
-		<div>
-  		<center>
-		<%- partial('index_pagination') %>
-  		</center>
-		</div>
+			</div>
 
-		
-		
-	</div> <!-- col-md-9 -->
+			<!-- pagination -->
+			<div>
+				<center>
+					<%- partial('index_pagination') %>
+				</center>
+			</div>
 
-	<% if (theme.widgets.length) { %>
+
+		</div> <!-- col-md-9 -->
+
+		<% if (theme.widgets.length) { %>
 		<%- partial('sidebar') %>
-	<% } %>
-	
-</div> <!-- row-fluid -->
+		<% } %>
+
+	</div> <!-- row-fluid -->

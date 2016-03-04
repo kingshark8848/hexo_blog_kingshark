@@ -9,9 +9,9 @@
 	<!-- display as entry -->
 <div class="row">
 	<div class="col-md-8">
-		<h3 class="title">
+		<h1 class="title">
 			<a href="<%- config.root %><%- item.path %>" <% if(item.description) { %>title="<%= item.description %>"<% } %>><%= item.title %></a>
-		</h3>
+		</h1>
 		</div>
 	<div class="col-md-4">
 		<div class="date">post @ <%= item.date.format(config.date_format) %>  </div>
