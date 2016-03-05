@@ -147,7 +147,7 @@ If you prefer to use disqus, the setting of disqus should be placed at your **ro
 
 ```
 # Disqus
-disqus_shortname:
+disqus_shortname: KingsharkMessitupHexo
 ```
 
 ## Front-Matter ##

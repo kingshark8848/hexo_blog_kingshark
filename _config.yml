@@ -70,3 +70,6 @@ theme: freemind386
 deploy:
   type: git
   repo: kingshark@139.162.17.91:hexo_blog.git
+
+# Disqus
+disqus_shortname: KingsharkMessitupHexo
