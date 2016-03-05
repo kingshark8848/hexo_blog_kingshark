@@ -55,7 +55,7 @@ widgets:
 - recent_posts
 - links
 
-rss: 
+rss: atom.xml
 fancybox: true
 favicon: Pug.png
 duoshuo_shortname:
